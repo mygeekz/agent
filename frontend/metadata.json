@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Gemini Chat & Task Manager (iOS 26 Concept)",
+  "description": "A redesigned, mobile-first web app for chatting with a Gemini-powered AI and managing tasks, featuring a modern 'glassmorphism' UI.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}
