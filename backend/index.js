@@ -7,6 +7,7 @@ const authRoutes = require('./routes/auth');
 const taskRoutes = require('./routes/tasks');
 const fileRoutes = require('./routes/files');
 const agentRoutes = require('./routes/agent');
+const chatRoutes = require('./routes/chat');
 
 // Middleware Imports
 const errorHandler = require('./middleware/errorHandler');
@@ -26,6 +27,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 app.use('/api/files', fileRoutes);
 app.use('/api/agent', agentRoutes);
+app.use(chatRoutes);
 
 // Serve uploaded files statically
 // This makes files in the 'uploads' directory accessible via URL, e.g., http://localhost:3001/uploads/filename.jpg
